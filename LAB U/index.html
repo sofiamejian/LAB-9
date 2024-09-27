@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulación de Chat</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="chat-container">
+    <h2 class="chat-title">Chat :D</h2>
+    <div id="message-area" class="message-area">
+    </div>
+
+    <div class="input-container">
+      <div class="user-input" id="user1">
+        <div class="user-label blue">
+          <span>&#128100;</span>
+        </div>
+        <input type="text" id="message-input-user1" placeholder="Mensaje usuario uno">
+        <button id="send-button-user1" class="send-button blue">Enviar</button>
+      </div>
+
+      <div class="user-input" id="user2">
+        <div class="user-label red">
+          <span>&#128100;</span>
+        </div>
+        <input type="text" id="message-input-user2" placeholder="Mensaje usuario dos">
+        <button id="send-button-user2" class="send-button red">Enviar</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
